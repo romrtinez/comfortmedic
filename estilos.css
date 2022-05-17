@@ -1,0 +1,406 @@
+/* textos: comfort medic: forum
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.imagen-fondo{
+  background: transparent;
+  background: url(imagenes/fondocm2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+
+.contenedor {
+  width: 95%; /*Un width del 90% es para que los elementos no esten tan pegados al borde*/
+  margin: auto; /*para que el contenido quede centrado y no todo pegado al borde*/
+
+}
+
+header .menu nav{
+  margin-left: 25rem;
+}
+
+
+.menu {
+  background: rgb(245, 245, 245);
+
+}
+
+.menu .contenedor {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+/* .menu .redes-menu li{
+  display: inline-block;
+  margin: 0 5px;
+  margin-left: 10px;
+  color: #000000;
+}
+
+.menu .redes-menu i{
+  font-size: 30px;
+  margin-left: 0px
+} */
+
+.logo-nav{
+  margin-left: 20px;
+} 
+
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  margin-left: 10px;
+}
+
+nav ul li i {
+  font-size: 24px;
+  color: #102033;
+}
+
+nav ul li a {
+  font-family: 'poppins';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+
+}
+
+a:visited{
+  color: #020101;
+}
+
+header .contenedor-inicio {
+  height: auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 9vh 0;
+  padding-bottom: 60px;
+}
+
+header .titular,
+header .imagen {
+  width: 100%;
+}
+
+header .titular hr{
+  width: 20%;
+  color: #0c0808;
+}
+
+header img {
+  width: 25%;
+}
+
+
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  margin: 0;
+  font-family: 'Forum', cursive;
+  font-size: 110px;
+  line-height: 154px;
+  text-align: center;
+  font-weight: 100;
+  color: #000000;
+}
+
+header .titular .boton{
+  border-radius: 30px;
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  background: rgb(235, 125, 0);
+  margin: 4rem;
+
+}
+
+
+
+header p {
+  font-family: 'M PLUS 1', sans-serif;
+  font-weight: 1000;
+  color: #000000;
+  font-size: 19px;
+  line-height: 26.6px;
+  letter-spacing: 7.6px;
+  text-align: center;
+}
+
+
+
+.boton {
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+
+
+/* SECCION SERVICES */
+
+#nosotros {
+  background: rgb(255, 255, 255);
+  padding-top: 120px;
+}
+
+#nosotros h2{
+  font-family: 'Forum';
+  font-weight: 500;
+  font-size: 60px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+
+#nosotros h3{
+  color: #666;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#nosotros .titular hr{
+  width: 10%;
+  color: rgb(200, 196, 196);
+}
+
+
+#nosotros p{
+  font-family: 'M PLUS 1', sans-serif;
+  font-size: 26px;
+  padding-top: 1rem;
+}
+
+#nosotros .contenedor {
+  padding: 0;
+  padding-bottom: 7rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nosotros .titular{
+  text-align: center;
+}
+
+#nosotros .imagen-nosotros{
+  width: 40%;
+  margin-top: 0px;
+}
+
+#nosotros img{
+  width: 100%;
+  
+}
+
+#nosotros .titular {
+  width: 49%;
+}
+
+#nosotros .service {
+  width: 25%;
+  background-color: #dbd9d9;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px 24px 24px 24px;
+  padding: 20px 30px;
+}
+
+
+
+
+#nosotros .boton {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+#nosotros h4 {
+  font-size: 23px;
+  font-weight: normal;
+  font-family: "Rubik";
+}
+
+
+
+/* OUR FEATURES */
+/* 
+#sliders {
+  padding-top: 90px;
+}
+
+#sliders h2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+#sliders h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+
+#sliders p {
+  color: #666;
+  line-height: 30px;
+}
+
+#sliders .contenedor {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding-bottom: 40px;
+}
+
+#sliders .titular {
+  width: 40%;
+  margin-right: 77px;
+}
+
+#sliders .imagen {
+  width: 49%;
+}
+
+#sliders .imagen img {
+  width: 100%;
+}
+
+.contenedor-features-2 {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc6b;
+  padding-top: 40px;
+}
+
+.features-1,
+.features-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin: auto;
+}
+
+.feature ul {
+  display: flex;
+  padding: 0;
+}
+
+.feature li {
+  list-style: none;
+}
+
+.feature li:nth-child(2) {
+  margin-left: 20px;
+  color: #666;
+  font-size: 14px;
+  line-height: 30px;
+} */
+
+/* SERVICIOS */
+
+#servicios{
+  height: 45rem;
+  padding-top: 10px;
+  padding-bottom: 120px;
+  background-color:rgb(245, 245, 245);
+}
+
+#servicios h2,
+#servicios h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 3px;
+  
+}
+
+#servicios h2{
+  font-family: 'Forum';
+  color: #ff8f00;
+  font-size: 6rem;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+#servicios h3 {
+  font-family: 'M PLUS 1', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  position: relative;
+  top: -30px;
+}
+
+.contenedor-precios {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+#servicios .tabla {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 24%;
+  text-align: center;
+  
+  padding: 5rem 20px;
+  margin-top: 1rem;
+  
+}
+
+#servicios ul {
+  padding: 0;
+  margin-left: 20px;
+  
+}
+
+#servicios .tabla li:nth-child() {
+  font-family: "Rubik";
+  color: #ff8f00;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+
+#servicios .tabla li:nth-child(1) {
+  list-style: none;
+  margin-bottom: 48px;
+  margin-left: -21px;
+  font-family: 'Forum';
+  font-weight: bold;
+  font-size: 30px;
+  width: 100%;
+  color: rgb(255, 253, 253);
+  background-color: #0000003f;
+}
+
+
